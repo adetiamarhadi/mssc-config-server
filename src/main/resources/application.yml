@@ -7,8 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/springframeworkguru/mssc-example-config-repo
+          uri: https://github.com/adetiamarhadi/mssc-brewery-config-repo.git
           clone-on-start: true
+          searchPaths: '{application}'
 logging:
   level:
     org:
