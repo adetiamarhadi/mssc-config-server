@@ -10,6 +10,10 @@ spring:
           uri: https://github.com/adetiamarhadi/mssc-brewery-config-repo.git
           clone-on-start: true
           searchPaths: '{application}'
+  security:
+    user:
+      name: MyUserName
+      password: MySecretPassword
 logging:
   level:
     org:
