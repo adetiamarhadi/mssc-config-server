@@ -1,2 +1,7 @@
 encrypt:
   key: MySuperSecretKey
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://netflix:eureka@localhost:8761/eureka
